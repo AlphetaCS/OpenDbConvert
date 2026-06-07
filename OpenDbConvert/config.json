@@ -1,0 +1,7 @@
+{
+  "SqlServerConnectionString": "Data Source=localhost;Initial Catalog=source;User ID=user; Password=myPass; TrustServerCertificate=true",
+  "MySqlConnectionString": "Server=localhost;Database=converted;Uid=user;Password=myPass",
+  "PreProcessSqlDirectory": "PreSql",
+  "PostProcessSqlDirectory": "PostSql",
+  "LogOutputFile": "dbconvert.log"
+}
