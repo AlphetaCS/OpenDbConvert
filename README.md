@@ -83,8 +83,16 @@ The tool executes the following steps in order:
 
 ## Usage
 
+### Linux / macOS
+
 ```bash
-dotnet OpenDbConvert.dll
+./OpenDbConvert
+```
+
+### Windows
+
+```powershell
+OpenDbConvert.exe
 ```
 
 The tool exits with code `1` if configuration is invalid or either database connection fails. All errors are written to stderr and to the log file if configured.
